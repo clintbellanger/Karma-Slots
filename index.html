@@ -1,0 +1,36 @@
+<html>
+  <head>
+
+    <title>Karma Slots!</title>
+    <script type="text/javascript" src="slots.js"></script>
+    <link rel="stylesheet" type="text/css" href="slots.css" />
+
+  </head>
+  <body>
+
+    <div id="wrap">
+
+      <div id="game">
+        <canvas id="slots" width="160" height="160"></canvas><br />
+        <button type="button" onclick="spin(1);">1 Line</button>
+        <button type="button" onclick="spin(3);">3 Lines</button>
+        <button type="button" onclick="spin(5);">5 Lines</button>
+      </div>
+
+      <div id="info">
+        <p id="credits"></p>
+        <p id="log"></p>
+      </div>
+
+      <div id="attribution">
+        by <a href="http://clintbellanger.net/rpg/" target="_blank">Clint Bellanger</a> and <a href="http://www.youtube.com/brandon75689" target="_blank">Brandon Morris</a>
+      </div>
+
+    </div>
+
+    <script type="text/javascript">
+      init();
+    </script>
+
+  </body>
+</html>
