@@ -1,3 +1,4 @@
+G
 Karma Slots es un juego de tragamonedas simple hecho en Javascript para HTML5 y lienzo. Utiliza un sencillo tema inspirado en "Reddit".
 
 Información de licencia
